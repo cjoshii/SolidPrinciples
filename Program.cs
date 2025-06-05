@@ -5,6 +5,6 @@ var client = new Client(new Human(), new Human());
 client.Work();
 client.Eat();
 
-var Client = new Client(new Robot(), new Human());
+client = new Client(new Robot(), new Human());
 client.Work();
 client.Eat();
